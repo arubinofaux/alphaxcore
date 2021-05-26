@@ -2466,5 +2466,24 @@
         },
         "explorerTxLink": "https://explorer.joys.digital/transaction/{0}",
         "explorerAccountLink": "https://explorer.joys.digital/account/{0}"
+    },
+    "tipcoin": {
+        "name": "Tipcoin",
+        "symbol": "TIP",
+        "family": "bitcoin",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "lyra2rev2"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [ { "hash": "sha256d" } ]
+        },
+        "shareMultiplier": 256,
+        "explorerBlockLink": "https://bchain.info/MONA/block/$height$",
+        "explorerTxLink": "https://bchain.info/MONA/tx/{0}",
+        "explorerAccountLink": "https://bchain.info/MONA/addr/{0}"
     }
 }
