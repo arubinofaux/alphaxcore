@@ -2475,15 +2475,15 @@
             "hash": "sha256d"
         },
         "headerHasher": {
-            "hash": "lyra2rev2"
+            "hash": "lyra2rev3"
         },
         "blockHasher": {
             "hash": "reverse",
             "args": [ { "hash": "sha256d" } ]
         },
         "shareMultiplier": 256,
-        "explorerBlockLink": "https://bchain.info/MONA/block/$height$",
-        "explorerTxLink": "https://bchain.info/MONA/tx/{0}",
-        "explorerAccountLink": "https://bchain.info/MONA/addr/{0}"
+        "explorerBlockLink": "https://explorer.tipcoin.us/block/$height$",
+        "explorerTxLink": "https://explorer.tipcoin.us/tx/{0}",
+        "explorerAccountLink": "https://explorer.tipcoin.us/address/{0}"
     }
 }
